@@ -1,6 +1,3 @@
-body {
-	background:
-}
 
 
 
@@ -18,9 +15,55 @@ body {
     cursor: pointer;
 }
 
-img {
-max-width: 100%;
 
 
+@media only screen and (max-width: 400px) {
+  .button {
+
+
+  	color: deeppink;
+	font-weight: bold;
+    height: 40px;
+    width: 160px;
+	float: bottom;
+	font-size: 16px;
+	font-family: snell roudhend,cursive;
+	background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .button {
+    color: deeppink;
+	font-weight: bold;
+    height: 40px;
+    width: 160px;
+	float: left;
+	font-size: 16px;
+	font-family: snell roudhend,cursive;
+	background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+   {
+    color: deeppink;
+	font-weight: bold;
+    height: 40px;
+    width: 160px;
+	float: left;
+	font-size: 16px;
+	font-family: snell roudhend,cursive;
+	background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
 }
 

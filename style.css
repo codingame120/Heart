@@ -1,12 +1,33 @@
-body {
 
-     background-image: url("1.png");
-     background-size: 50%;
-     background-repeat: no-repeat;
-     background-position: 50% -2%;
- }
 
-.btn {
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .btn {
+  	 
+	color: deeppink;
+	font-weight: bold;
+    height: 40px;
+    width: 140px;
+    float: bottom;
+    
+	
+	font-size: 16px;
+	font-family: snell roundhand,cursive;
+	background-color: transparent;
+	cursor: pointer;
+	border: none;
+
+
+    
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .btn {
+  	 
 	color: deeppink;
 	font-weight: bold;
     height: 40px;
@@ -19,4 +40,66 @@ body {
 	background-color: transparent;
 	cursor: pointer;
 	border: none;
+
+
+    
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .btn {
+  	 
+	color: deeppink;
+	font-weight: bold;
+    height: 40px;
+    width: 140px;
+    float: right;
+    
+	
+	font-size: 16px;
+	font-family: snell roundhand,cursive;
+	background-color: transparent;
+	cursor: pointer;
+	border: none;
+
+
+    
+  }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+
+    
+     background-image: url("1.png");
+     background-size: 20%;
+     background-repeat: no-repeat;
+     background-position: 50% -2%;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    
+
+     background-image: url("1.png");
+     background-size: 50%;
+     background-repeat: no-repeat;
+     background-position: 35% -2%;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    
+
+     background-image: url("1.png");
+     background-size: 50%;
+     background-repeat: no-repeat;
+     background-position: 50% -2%;
+  }
 }
