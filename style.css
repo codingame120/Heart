@@ -10,7 +10,12 @@
 	font-weight: bold;
     height: 40px;
     width: 140px;
-    float: right;
+    float: left;
+    margin: 0;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 40%;
     
 	
 	font-size: 16px;
@@ -74,7 +79,7 @@
 
     
      background-image: url("1.png");
-     background-size: 20%;
+     background-size: 30%;
      background-repeat: no-repeat;
      background-position: 50% -2%;
   }
@@ -103,3 +108,19 @@
      background-position: 50% -2%;
   }
 }
+
+@media only screen and (max-width: 400px) {
+
+
+#myaudio {
+
+  position: absolute;
+  left: auto;
+  right: 4%;
+  bottom: 5%;
+}
+
+
+
+}
+

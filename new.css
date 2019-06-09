@@ -1,9 +1,7 @@
 
 
-
-
-.button {
-	color: deeppink;
+.button{
+    color: deeppink;
 	font-weight: bold;
     height: 40px;
     width: 160px;
@@ -14,31 +12,14 @@
     border: none;
     cursor: pointer;
 }
-
 
 
 @media only screen and (max-width: 400px) {
-  .button {
+
+.button {
 
 
-  	color: deeppink;
-	font-weight: bold;
-    height: 50px;
-    width: 170px;
-	float: bottom;
-	font-size: 26px;
-	font-family: snell roudhend,cursive;
-	background-color: transparent;
-    border: none;
-    cursor: pointer;
-    
-  }
-}
-
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  .button {
-    color: deeppink;
+	 color: blue;
 	font-weight: bold;
     height: 40px;
     width: 160px;
@@ -48,22 +29,10 @@
 	background-color: transparent;
     border: none;
     cursor: pointer;
-  }
+
+
 }
 
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-   {
-    color: deeppink;
-	font-weight: bold;
-    height: 40px;
-    width: 160px;
-	float: left;
-	font-size: 16px;
-	font-family: snell roudhend,cursive;
-	background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
-}
 
+
+}
