@@ -124,3 +124,19 @@
 
 }
 
+@media only screen and (min-width: 401px) and (max-width: 960px){
+
+
+
+#myaudio {
+
+  position: absolute;
+  left: auto;
+  right: 4%;
+  bottom: 5%;
+}
+
+
+	
+}
+
